@@ -1,0 +1,14 @@
+name: ColorHelper
+main: com.frostcraft.colorhelper.ColorHelper
+version: 1.0
+commands:
+  color:
+    description: color
+    usage: Use /color <Name>
+    permission: ColorHelper.color
+    permission-message:   You don't have permission to use this command.   
+permissions:
+    ColorHelper.color:
+      description: permission for ColorHelper player commands.
+      default: true
+     
